@@ -1,6 +1,6 @@
 <template>
     <div class="container mt-5">
-      <h1 class="text-center">Weather App</h1>
+      <h1 class="text-center">Weather App </h1>
       <h3 class="text-center">Kuya Mark Ano na!</h3>
   
       <div class="input-group mb-3">
