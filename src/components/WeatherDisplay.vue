@@ -1,7 +1,6 @@
 <template>
-    <div class="card">
+  <div class="card">
       <h2 class="card-header">{{ weather.name }}, {{ weather.sys.country }}</h2>
-  
       <div class="card-body">
         <div class="row">
           <div class="col-6">
@@ -29,10 +28,16 @@
         </div>
       </div>
     </div>
+  
+   
   </template>
   
   <script>
-  export default {
+export default {
+  // components: {
+  //   SearchComponent
+  // },
+
     props: {
       weather: {
         type: Object,
@@ -71,7 +76,8 @@
     overflow-x: hidden;
     height: 100%;
     background-image: linear-gradient(#81D4FA, #2196F3);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
 }
 .card{
   background: bottom;
@@ -107,13 +113,13 @@
 
 input {
     background-color: #607D8B;
-    padding: 24px 0px 12px 0px !important;
+    /* padding: 24px 0px 12px 0px !important; */
     width: 80%;
     box-sizing: border-box;
     border: none !important;
     border-bottom: 1px solid #CFD8DC !important;
     font-size: 16px !important;
-    color: #fff !important;
+    /* color: #fff !important; */
 }
 
 input:focus {
@@ -166,5 +172,11 @@ input:focus {
         padding-left: 26px;
     }
 }
-  </style>
+
+@media screen and (min-width: 769px) {
+    body{
+      display: none;
+    }
+}
+</style>
   
