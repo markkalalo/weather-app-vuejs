@@ -4,6 +4,8 @@
 
 The Weather App is a simple and user-friendly web application designed to provide real-time weather information for any city around the world. It utilizes the OpenWeatherMap API to fetch accurate and up-to-date weather data, allowing users to quickly check the current weather conditions, temperature, humidity, wind speed, and more.
 
+![Alt text](./Weatherapp.png)
+
 ## Developer
 
 - **Name:** Mark Kalalo
