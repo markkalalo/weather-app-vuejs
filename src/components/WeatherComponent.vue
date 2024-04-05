@@ -70,7 +70,7 @@
             params: {
               q: this.city,
               units: 'metric',
-              appid: ' API KEY HERE '
+              appid: '9db2f327231c51dbcc175921eb36bea7'
             }
           });
   
