@@ -70,7 +70,7 @@
             params: {
               q: this.city,
               units: 'metric',
-              appid: ' INSERT API HERE '
+              appid: ' API HERE'
             }
           });
   
